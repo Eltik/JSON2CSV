@@ -1,0 +1,16 @@
+{
+    "encryptionKey": "MALSync",
+    "mapping": {
+        "anime": {
+            "threshold": 0.2,
+            "comparison_threshold": 0.9,
+            "check_genres": true
+        },
+        "anilist": {
+            "SEASON": "SPRING",
+            "SEASON_YEAR": 2023,
+            "NEXT_SEASON": "SUMMER",
+            "NEXT_YEAR": 2023
+        }
+    }
+}

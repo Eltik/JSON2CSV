@@ -1,0 +1,33 @@
+{
+    "name": "anify-api",
+    "description": "API for https://anify.club/.",
+    "version": "1.0.0",
+    "main": "./built/server/server.js",
+    "directories": {
+      "example": "examples"
+    },
+    "scripts": {
+      "build": "tsc --build",
+      "clean": "tsc --build --clean",
+      "fix_all_anime": "node ./scripts/anime/fix_anime.js",
+      "fix_sources": "node ./scripts/anime/fix_sources.js",
+      "fix_all_manga": "node ./scripts/manga/fix_manga.js",
+      "create_novel_covers": "node ./scripts/novels/create_covers.js",
+      "insert_novels": "node ./scripts/novels/insert_novels.js",
+      "start": "node ./built/server/server"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Eltik/JSON2CSV.git"
+    },
+    "author": "eltik",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Eltik/JSON2CSV/issues"
+    },
+    "homepage": "https://github.com/Eltik/JSON2CSV#readme",
+    "dependencies": {
+        "json2csv": "^5.0.7"
+    }
+  }
+  
